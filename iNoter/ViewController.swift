@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textTitle: UITextField!
+    
+    
+    @IBOutlet weak var textBody: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func btnSave(_ sender: Any) {
+        
+        let note = Notes(context: context)
+        note.title = textTitle.text
+        note.body = textBody.text
+        note.date_current = NSDate() as Date
+        apDel.saveContext()
+        textTitle.text = ""
+        textBody.text = ""
+        
+    }
+    
+    @IBAction func btnBack(_ sender: Any) {
+    }
 }
 

@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8615DA5C1FD1A95E00E1D22D /* VCmyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8615DA5B1FD1A95E00E1D22D /* VCmyList.swift */; };
+		8615DA5E1FD1AF6600E1D22D /* TVCnote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8615DA5D1FD1AF6600E1D22D /* TVCnote.swift */; };
 		864763DD1FCF02B4003E459B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864763DC1FCF02B4003E459B /* AppDelegate.swift */; };
 		864763DF1FCF02B4003E459B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864763DE1FCF02B4003E459B /* ViewController.swift */; };
 		864763E21FCF02B4003E459B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864763E01FCF02B4003E459B /* Main.storyboard */; };
 		864763E51FCF02B4003E459B /* iNoter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 864763E31FCF02B4003E459B /* iNoter.xcdatamodeld */; };
 		864763E71FCF02B4003E459B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864763E61FCF02B4003E459B /* Assets.xcassets */; };
 		864763EA1FCF02B4003E459B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864763E81FCF02B4003E459B /* LaunchScreen.storyboard */; };
+		871760831C7A810401715D3D /* Pods_iNoter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F8C638A78F45E4A00923D4 /* Pods_iNoter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21B9AFE21E7ADE80610CD712 /* Pods-iNoter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNoter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iNoter/Pods-iNoter.debug.xcconfig"; sourceTree = "<group>"; };
+		8615DA5B1FD1A95E00E1D22D /* VCmyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCmyList.swift; sourceTree = "<group>"; };
+		8615DA5D1FD1AF6600E1D22D /* TVCnote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCnote.swift; sourceTree = "<group>"; };
 		864763D91FCF02B4003E459B /* iNoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864763DC1FCF02B4003E459B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864763DE1FCF02B4003E459B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		864763E61FCF02B4003E459B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864763E91FCF02B4003E459B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864763EB1FCF02B4003E459B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F8C638A78F45E4A00923D4 /* Pods_iNoter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iNoter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8471B1CCE2BFCE5B7B33BA2 /* Pods-iNoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNoter.release.xcconfig"; path = "Pods/Target Support Files/Pods-iNoter/Pods-iNoter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871760831C7A810401715D3D /* Pods_iNoter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				864763DB1FCF02B4003E459B /* iNoter */,
 				864763DA1FCF02B4003E459B /* Products */,
+				E03589132A0E17933796153D /* Pods */,
+				FD2DD75CD1307CF8A3F6B2DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +70,31 @@
 				864763DC1FCF02B4003E459B /* AppDelegate.swift */,
 				864763DE1FCF02B4003E459B /* ViewController.swift */,
 				864763E01FCF02B4003E459B /* Main.storyboard */,
+				8615DA5D1FD1AF6600E1D22D /* TVCnote.swift */,
+				8615DA5B1FD1A95E00E1D22D /* VCmyList.swift */,
 				864763E61FCF02B4003E459B /* Assets.xcassets */,
 				864763E81FCF02B4003E459B /* LaunchScreen.storyboard */,
 				864763EB1FCF02B4003E459B /* Info.plist */,
 				864763E31FCF02B4003E459B /* iNoter.xcdatamodeld */,
 			);
 			path = iNoter;
+			sourceTree = "<group>";
+		};
+		E03589132A0E17933796153D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21B9AFE21E7ADE80610CD712 /* Pods-iNoter.debug.xcconfig */,
+				D8471B1CCE2BFCE5B7B33BA2 /* Pods-iNoter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD2DD75CD1307CF8A3F6B2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F8C638A78F45E4A00923D4 /* Pods_iNoter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864763EE1FCF02B4003E459B /* Build configuration list for PBXNativeTarget "iNoter" */;
 			buildPhases = (
+				AED00ACC4BC3C9AFA42625AB /* [CP] Check Pods Manifest.lock */,
 				864763D51FCF02B4003E459B /* Sources */,
 				864763D61FCF02B4003E459B /* Frameworks */,
 				864763D71FCF02B4003E459B /* Resources */,
+				8A5666068F657D8F71BECA4C /* [CP] Embed Pods Frameworks */,
+				363F8B79587358FFC16D7B80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,11 +167,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		363F8B79587358FFC16D7B80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNoter/Pods-iNoter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5666068F657D8F71BECA4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iNoter/Pods-iNoter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iNoter/Pods-iNoter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED00ACC4BC3C9AFA42625AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iNoter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		864763D51FCF02B4003E459B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8615DA5C1FD1A95E00E1D22D /* VCmyList.swift in Sources */,
+				8615DA5E1FD1AF6600E1D22D /* TVCnote.swift in Sources */,
 				864763DF1FCF02B4003E459B /* ViewController.swift in Sources */,
 				864763DD1FCF02B4003E459B /* AppDelegate.swift in Sources */,
 				864763E51FCF02B4003E459B /* iNoter.xcdatamodeld in Sources */,
@@ -276,6 +367,7 @@
 		};
 		864763EF1FCF02B4003E459B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B9AFE21E7ADE80610CD712 /* Pods-iNoter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +382,7 @@
 		};
 		864763F01FCF02B4003E459B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8471B1CCE2BFCE5B7B33BA2 /* Pods-iNoter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

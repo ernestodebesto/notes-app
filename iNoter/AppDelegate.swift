@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 import CoreData
 
 @UIApplicationMain
@@ -90,4 +91,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
+let apDel = UIApplication.shared.delegate as! AppDelegate
+let context = apDel.persistentContainer.viewContext
+
+
 
